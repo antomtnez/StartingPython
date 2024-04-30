@@ -1,13 +1,8 @@
-myVar = "Hello world from Python"
-print(myVar)
+dayCalification = int(input("Califica tu día de hoy(1 - 10): "))
+print("Tu día de hoy estuvo de", dayCalification)
 
-num1 = 10
-num2 = 2
-
-num2 = int(input("Write a number: "))
-
-myVar = num1 < num2
-if myVar:
-    print(num2, "es mayor que", num1)
-else:
-    print(num1, "es mayor que", num2)
+bookTitle = input("Escribe un titulo de un libro: ")
+bookAuthor = input("Escribe el autor de un libro: ")
+print("EL titulo del libro es:", bookTitle)
+print("EL titulo del libro es:", bookAuthor)
+print(bookTitle, "fue escrito por", bookAuthor)
