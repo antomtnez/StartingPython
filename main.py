@@ -1,21 +1,12 @@
 myVar = "Hello world from Python"
 print(myVar)
 
-num1 = "10"
-num2 = "2"
-total = int(num1) + int(num2)
-print(total)
+num1 = 10
+num2 = 2
+total = num1 + num2
 
-print(id(num1))
-print(id(num2))
-print(id(total))
-
-print(type(myVar))
-print(type(num1))
-print(type(num2))
-print(type(total))
-
-favBand = "Metallica"
-comment = "Best Rock Band"
-
-print("My favourite band is", favBand, comment)
+myVar = num1 < num2
+if myVar:
+    print(num2, "es mayor que", num1)
+else:
+    print(num1, "es mayor que", num2)
