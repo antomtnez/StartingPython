@@ -1,5 +1,5 @@
-number = int(input("Introduce un numero para ver si es par o impar: "))
-if number%2 == 0:
-    print(number, "es un numero par")
+number = int(input("Introduce un edad para ver si eres mayor de edad: "))
+if number > 17:
+    print("Eres mayor de edad")
 else:
-    print(number, "es un numero impar")
+    print("Eres menor de edad")
