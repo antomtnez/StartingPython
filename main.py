@@ -1,7 +1,6 @@
-number = 0
+string = "Hola"
 
-while number < 6:
-    print(number)
-    number += 1
+for char in string:
+    print(char)
 else:
     print("Fin de ciclo")
