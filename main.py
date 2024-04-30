@@ -1,7 +1,13 @@
-number = int(input("Introduce un edad: "))
-overTwenty = number > 19
-underThirty = number <= 30
-if overTwenty and underThirty:
-    print("Estas entre los 20's y los 30's")
+number = int(input("Write a month in number (1 - 12):"))
+
+if 1 <= number < 4:
+    seasonText = "Winter"
+elif 4 <= number < 7:
+    seasonText = "Spring"
+elif 7 <= number < 10:
+    seasonText = "Summer"
+elif 10 <= number < 12:
+    seasonText = "Autumn"
 else:
-    print("No estas entre los 20's y los 30's")
+    seasonText = "Out of range"
+print(f"Month {number} is on {seasonText} season")
